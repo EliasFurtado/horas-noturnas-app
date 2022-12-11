@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/horas-noturnas', [ApiController::class, 'getHorasNoturnas']);
+Route::post('/horas-noturnas', [ApiController::class, 'getHorasNoturnas']);
