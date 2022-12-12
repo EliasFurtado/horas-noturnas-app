@@ -15,7 +15,5 @@ class ApiController extends Controller
         
         $horasService = new HorasService();
         return $horasService->horasService($inicio, $fim);
-       
-         
     }
 }
